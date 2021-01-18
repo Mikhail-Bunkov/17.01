@@ -9,6 +9,10 @@ public class Main {
         workers[3] = new Worker("Александр Родионович Бородач", "Охранник", "ponyatiprostit@mail.ru",78955555555l,22000,39);
         workers[4] = new Worker("Хабар Хабарович Хабаров", "Хабаровчание", "khabarovsk@mail.ru", 79999999999l,1000000,1);
 
+        System.out.println();
+        System.out.println("Сотрудники старше 40 лет: ");
+        System.out.println();
+
         for (int i =0; i< workers.length; i++)
         {
             if (workers[i].age >=40)
